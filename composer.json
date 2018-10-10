@@ -1,0 +1,17 @@
+{
+    "name": "jprochocki/solven",
+    "authors": [
+        {
+            "name": "Jakub Prochocki",
+            "email": "bardzotajnyemail@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\":"src/"
+        }
+    }
+}
