@@ -45,10 +45,7 @@ class Customer
 		return $this->customerSurname;
 	}
 
-	/**
-	 * @param mixed $customerSurname
-	 */
-	public function setCustomerSurname($customerSurname)
+	public function setCustomerSurname(string $customerSurname)
 	{
 		$this->customerSurname = $customerSurname;
 	}
